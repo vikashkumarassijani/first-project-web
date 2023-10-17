@@ -1,0 +1,260 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+header{
+    width: 100%;
+    height: 80vh;
+    background-image: url(bitcoin-3090250_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    margin-top: -10px;
+    padding: 30px;
+    color: chartreuse;
+}
+.up{
+   
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    align-items: center;
+    justify-content: space-between;
+    background-color: bisque;
+    text-transform: capitalize;;
+}
+.up h4{
+    margin: 20px;
+    margin-top: 15px;
+}
+.up p{
+    margin-right: 20px;
+}
+.up p a{
+    text-decoration: none;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;;
+    }
+    nav .menu{
+        width: 70%;
+        
+    }
+    nav .menu ul{
+        display: flex;
+        list-style: none;
+        margin: 45px;
+        justify-content: space-around;
+      
+    }
+    .buttin{
+        height: 30px;
+        margin: 40px;
+        display: flex;
+    }
+    nav .menu ul a{
+        text-decoration: none;
+        color: aqua;
+    }
+    nav .menu ul a:hover{
+        color: darkorange;
+        text-decoration: overline;
+        font-weight: bold;
+    }
+    .buttin button{
+        border-radius: 100px;
+        color: rgb(147, 14, 14);
+        background-color: rgb(240, 240, 240);
+        width: 180px;
+        height: 25px;
+        box-shadow: 2px 4px 2px aqua;
+        font-size: 14px;
+    }
+    .buttin button:hover{
+        background-color: grey;
+        color: plum;
+    }
+    .content{
+        width: 100%;
+        height: 50vh;
+        margin-top: 190px;
+        text-align: center;
+        font-size: 30px;
+        color: rgba(8, 74, 141, 0.804);
+        text-transform: capitalize;
+    }
+    button{
+        border-radius: 30px;
+        background-color: cornsilk;
+        width: 180px;
+        height: 5vh;
+    }
+    button:hover{
+        background-color: brown;
+        color: cyan;
+    }    
+    .service{
+        display: flex;
+        text-transform: capitalize;
+        text-decoration: underline;
+        font-size: xx-large;
+        font-weight: bold;
+        justify-content: center;
+        color: red;
+    }
+    .box{
+        display: flex;
+        text-transform: capitalize;
+        font-size: larger;
+        font-weight: bold;
+        justify-content: center;
+        color: blue;
+    }
+    .box1{
+        display: flex;
+        text-transform: capitalize;
+        font-size: larger;
+        font-weight: bold;
+        justify-content: center;
+        color: blue;
+    }
+    .box2{
+        display: flex;
+        text-transform: capitalize;
+        font-size: larger;
+        font-weight: bold;
+        justify-content: center;
+        color: red;
+        text-decoration: underline;
+
+    }
+    .service{
+        text-align: center;
+        margin-top: 30px;
+        color: blue;
+        text-decoration: none;
+    }
+    .courses{
+        display: flex;
+        width: 70%;
+        height: 70%;
+        margin-top: 40px;
+        margin-left: 180px;
+
+    }
+    .course1 img{
+        width: 250px;
+        height: 200px;
+        margin-right: 90px;
+        justify-content: space-between;
+    }
+    .course2 img{
+        width: 250px;
+        height: 200px;
+        margin-right: 90px;
+    }
+    .course3 img{
+        width: 250px;
+        height: 200px;
+        margin-right: 90px;
+    }
+    .coursesa{
+        display: flex;
+        width: 70%;
+        height: 70%;
+        margin-top: 40px;
+        margin-left: 180px;
+    }
+    .course4 img{
+        width: 250px;
+        height: 200px;
+        margin-right: 90px;
+        justify-content: space-between;
+    }
+    .course5 img{
+        width: 250px;
+        height: 200px;
+        margin-right: 90px;
+    }
+    .course6 img{
+        width: 250px;
+        height: 200px;
+        margin-right: 90px;
+    }
+    .coursesb{
+        width: 70%;
+        height: 70%;
+        margin-top: 40px;
+        margin-left: 180px;
+        display: flex;
+    }
+    .course7 img{
+        width: 250px;
+        height: 200px;
+        margin-right: 90px;
+        justify-content: space-between;
+    }
+    .course8 img{
+        width: 250px;
+        height: 200px;
+        margin-right: 90px;
+    }
+    .course9 img{
+        width: 250px;
+        height: 200px;
+        margin-right: 90px;
+    }
+    .footer{
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        background-color: antiquewhite;
+    }
+    .footer1{
+        width: 250px;
+        height: fit-content;
+    }
+    .footer1 img{
+        width: 200px;
+        margin-top: 20px;
+        margin-left: 150px;
+       
+     
+    }
+    .footer2{
+        width: 250px;
+        height: fit-content;
+        margin-top: 70px;
+        text-transform: capitalize;
+       
+    }
+    .footer3 ul li {
+        list-style: none;
+    }
+    .footer3{
+        margin-top: 40px;
+        text-decoration: none;
+    }
+    .footer3 a{
+        text-decoration: none;
+        margin-right: 160px;
+    }
+    .footer3 ul li a {
+        text-decoration: none;
+    }
+    .copy{
+        text-align: center;
+        background-color: aqua;
+        color: blue;
+    }
